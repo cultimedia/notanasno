@@ -1,0 +1,20 @@
+User-Agent: *
+Disallow: /page4845304.html
+Disallow: /header
+Disallow: /page4956877.html
+Disallow: /page4969272.html
+Disallow: /error
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://notanasno.com/sitemap.xml
+Host: https://notanasno.com

@@ -1,0 +1,41 @@
+ErrorDocument 403 /page4969272.html
+ErrorDocument 404 /page4969272.html
+
+DirectoryIndex page4729711.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^animations$ page4957612.html [NC]
+RewriteRule ^animations/$ page4957612.html [NC]
+
+RewriteRule ^header$ page4845304.html [NC]
+RewriteRule ^header/$ page4845304.html [NC]
+
+RewriteRule ^about$ page5075312.html [NC]
+RewriteRule ^about/$ page5075312.html [NC]
+
+RewriteRule ^termsofservice$ page5046240.html [NC]
+RewriteRule ^termsofservice/$ page5046240.html [NC]
+
+RewriteRule ^error$ page4969272.html [NC]
+RewriteRule ^error/$ page4969272.html [NC]
+
+RewriteRule ^privacypolicy$ page5046355.html [NC]
+RewriteRule ^privacypolicy/$ page5046355.html [NC]
+
+RewriteRule ^missionandvision$ page5367815.html [NC]
+RewriteRule ^missionandvision/$ page5367815.html [NC]
+
+RewriteRule ^resources$ page5368318.html [NC]
+RewriteRule ^resources/$ page5368318.html [NC]
+
+RewriteRule ^values$ page5790970.html [NC]
+RewriteRule ^values/$ page5790970.html [NC]
+
+RewriteRule ^personality$ page6835644.html [NC]
+RewriteRule ^personality/$ page6835644.html [NC]
+
+
